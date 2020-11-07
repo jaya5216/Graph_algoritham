@@ -1,6 +1,8 @@
 # Graph_algoritham
 
 // A simple representation of graph using STL
+//Saves space O(|V|+|E|). In the worst case, there can be C(V, 2) number of edges in a graph thus consuming O(V^2) space. Adding a vertex is easier.
+
 #include<bits/stdc++.h>
 using namespace std;
 
